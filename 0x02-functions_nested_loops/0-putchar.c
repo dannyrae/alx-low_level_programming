@@ -1,13 +1,23 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * Main - a program that prints _putchar followed by a new line
+ * main - prints _putchar
  *
- * Result - always return 0 when successful
+ * Description: prints _putchar
+ *
+ * Result: always return 0 when successful
  */
 
-char main(void)
+int main(void)
 {
-	putchar("\_putchar\n");
+	char text[9] = "_putchar";
+	int i = 0;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
+
 	return (0);
 }
