@@ -6,8 +6,8 @@
  * Result - always return 0 when successful
  */
 
-int main()
+int main(void)
 {
 	putchar("_putchar\n");
-	return 0;
+	return (0);
 }
