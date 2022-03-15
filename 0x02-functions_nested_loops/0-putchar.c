@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints _putchar followed by a new line
+ * Main - a program that prints _putchar followed by a new line
  *
  * Result - always return 0 when successful
  */
 
-int main(void)
+char main(void)
 {
-	putchar("_putchar\n");
+	putchar("\_putchar\n");
 	return (0);
 }
