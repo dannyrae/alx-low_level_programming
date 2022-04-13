@@ -1,47 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "3-calc.h"
-
 /**
- * op_add - adds two numbers.
- * @a: first number.
- * @b: second number.
+ * op_add - Struct op
  *
- * Return: add.
+ * @a: The operator
+ * @b: The function associated
+ * Return: int
  */
 int op_add(int a, int b)
 {
 	return (a + b);
 }
-
 /**
- * op_sub - subctracts two numbers.
- * @a: first number.
- * @b: second number.
+ * op_sub - Struct op
  *
- * Return: difference.
+ * @a: The operator
+ * @b: The function associated
+ * Return: int
  */
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
-
 /**
- * op_mul - multiplies two numbers.
- * @a: first number.
- * @b: second number.
+ * op_mul - Struct op
  *
- * Return: multiplication.
+ * @a: The operator
+ * @b: The function associated
+ * Return: int
  */
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
-
 /**
- * op_div - divides two numbers.
- * @a: first number.
- * @b: second number.
+ * op_div - Struct op
  *
- * Return: division.
+ * @a: The operator
+ * @b: The function associated
+ * Return: int
  */
 int op_div(int a, int b)
 {
@@ -52,13 +50,12 @@ int op_div(int a, int b)
 	}
 	return (a / b);
 }
-
 /**
- * op_mod - calculates the module of two numbers.
- * @a: first number.
- * @b: second number.
+ * op_mod - Struct op
  *
- * Return: remainder of the division.
+ * @a: The operator
+ * @b: The function associated
+ * Return: int
  */
 int op_mod(int a, int b)
 {
